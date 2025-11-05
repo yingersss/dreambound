@@ -1,11 +1,9 @@
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "Combat/EnemyData")]
-public class EnemyData : ScriptableObject
+[CreateAssetMenu(fileName = "NewEnemy", menuName = "Battle/Enemy Data")]
+public class EnemyData : CharacterData
 {
-    public string enemyName;
-    public int health;
-    public int level;
-    public GameObject prefab;
-    public Sprite sprite;
+    [TextArea] public string description;
+    public int expReward;
+    public int goldReward;
 }

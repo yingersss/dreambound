@@ -12,7 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0036a2f4b6a9b4c48b713df3ee579014, type: 3}
   m_Name: BabyDragon
   m_EditorClassIdentifier: Assembly-CSharp::EnemyData
-  enemyName: Baby Dragon
-  health: 10
-  level: 2
-  prefab: {fileID: 0}
+  sprite: {fileID: -3086720242725003937, guid: d673d5a571b57da4091e4968c1b2cd62, type: 3}
+  stats:
+    name: Baby Dragon
+    level: 10
+    maxHP: 50
+    currentHP: 50
+    attack: 10
+    defense: 20
+    speed: 5
+  description: a baby dragon
+  expReward: 200
+  goldReward: 0

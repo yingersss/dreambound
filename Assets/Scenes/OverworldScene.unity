@@ -148,6 +148,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c196e144b64445144bfec8d4ace4df89, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
+  playerData: {fileID: 11400000, guid: 83150be17d810a14caf46c8325ffa52a, type: 2}
 --- !u!4 &35405584
 Transform:
   m_ObjectHideFlags: 0
@@ -10245,6 +10246,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2238489151480519352, guid: 3d1f9ac294222e043aa90f417192f0e5, type: 3}
+      propertyPath: enemyData
+      value: 
+      objectReference: {fileID: 11400000, guid: b9e18fa80cb06624d90be8e3f51d545b, type: 2}
     - target: {fileID: 8599702324004734897, guid: 3d1f9ac294222e043aa90f417192f0e5, type: 3}
       propertyPath: m_Name
       value: Enemy
@@ -10258,10 +10263,10 @@ PrefabInstance:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 35405584}
   - {fileID: 519420032}
   - {fileID: 6599705849423391679}
   - {fileID: 7067311759098098306}
   - {fileID: 45549430}
   - {fileID: 1654828569}
   - {fileID: 1211747718}
-  - {fileID: 35405584}

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4216445728210768162}
   - component: {fileID: 7393646344958161228}
   - component: {fileID: 6243985456157389319}
-  - component: {fileID: 164106363358828043}
+  - component: {fileID: 2238489151480519352}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 8599702324004734897}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -3, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -166,7 +166,7 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &164106363358828043
+--- !u!114 &2238489151480519352
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

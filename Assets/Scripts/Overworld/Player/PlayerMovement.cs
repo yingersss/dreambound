@@ -23,17 +23,17 @@ public class PlayerMovement : MonoBehaviour
     
     public void Move(InputAction.CallbackContext context)
     {
-        if (GameManager.instance.currentState != GameManager.GameState.Overworld)
+        if (GameManager.instance.currentState != 0) // overworld state idk the syntax
             return;
         animator.SetBool("IsWalking", true); // set the IsWalking parameter to true
         if (context.canceled)
             animator.SetBool("IsWalking", false); // set the IsWalking parameter to false
 
-        animator.SetFloat("LastInputX", moveInput.x); // set the LastInputX parameter to the x value of the input
-        animator.SetFloat("LastInputY", moveInput.y); // set the LastInputY
-        moveInput = context.ReadValue<Vector2>(); // read the input value from the context
-        animator.SetFloat("InputX", moveInput.x); // set the InputX parameter to the x value of the input
-        animator.SetFloat("InputY", moveInput.y); // set the InputY parameter to the y value of the input
+        animator.SetFloat("LastInputX", moveInput.x);
+        animator.SetFloat("LastInputY", moveInput.y);
+        moveInput = context.ReadValue<Vector2>();
+        animator.SetFloat("InputX", moveInput.x);
+        animator.SetFloat("InputY", moveInput.y);
         
 	}
 }
