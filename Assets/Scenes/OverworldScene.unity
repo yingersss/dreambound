@@ -215,7 +215,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e2004027f5fbcd49ab51e0ca3099f9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyOverworld
-  enemyData: {fileID: 0}
+  enemyData: {fileID: 11400000, guid: b9e18fa80cb06624d90be8e3f51d545b, type: 2}
 --- !u!61 &88887767
 BoxCollider2D:
   m_ObjectHideFlags: 0
