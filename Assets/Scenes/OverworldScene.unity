@@ -10184,6 +10184,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6069533256643116765, guid: 746e6221df5f5194fa93427c9e77ea8f, type: 3}
+      propertyPath: m_DeviceLostEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7071052231081245899, guid: 746e6221df5f5194fa93427c9e77ea8f, type: 3}
       propertyPath: m_Name
       value: Player
