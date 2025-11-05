@@ -7,4 +7,5 @@ public class EnemyData : ScriptableObject
     public int health;
     public int level;
     public GameObject prefab;
+    public Sprite sprite;
 }

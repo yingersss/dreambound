@@ -1,16 +1,18 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public enum GameState  // add more states as needed
-{
-    Overworld,
-    Battle
-}
+
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance { get; private set; } // Singleton instance
     public GameState currentState { get; private set; } = GameState.Overworld;
+
+    public enum GameState  // add more states as needed
+    {
+        Overworld,
+        Battle
+    }
 
     private void Awake()
     {
